@@ -1,0 +1,21 @@
+
+
+.card-title {
+  font-size: 17.6px;
+  line-height: 26.4px;
+  text-align: center;
+}
+
+.card-text {
+  font-family: Roboto;
+  font-size: 14.4px;
+  line-height: 21.6px;
+  text-align: left;
+}
+
+.card-footer {
+  background-color: #ffffff;
+
+  font-size: 14.4px;
+  height: 55px;
+}

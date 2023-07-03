@@ -1,7 +1,7 @@
 1. Two-way data binding trong React: 
 
   **Khái niệm: Là một kỹ thuật cho phép cập nhật trạng thái giữa component cha và component con một cách đồng bộ. Khi sử dụng two-way data binding, thay đổi trạng thái ở component con sẽ ảnh hưởng trực tiếp đến trạng thái của component cha và ngược lại.
-
+ 
 Trong React, two-way data binding thường được thực hiện thông qua việc sử dụng một giá trị state trong component cha và truyền giá trị state này xuống cho component con thông qua props. Khi component con thay đổi giá trị, nó gửi một sự kiện hoặc callback lên component cha để cập nhật giá trị state. Sau khi giá trị state được cập nhật, React sẽ tự động render lại các component liên quan để hiển thị giá trị mới.
 
   **Ví dụ, giả sử có một component cha là ParentComponent và một component con là ChildComponent. Trạng thái được chia sẻ giữa hai component là value. Để thực hiện two-way data binding, ta thực hiện các bước sau:
@@ -172,7 +172,7 @@ const FoodForm = () => {
 
       <div className="input-item">
         <label className="label" >Update Location: </label>
-        <input
+        <inputD
           className="input"
           onChange={e => food.setLocation(e.target.value)}
         />
